@@ -1,0 +1,1218 @@
+[
+    {
+        "id": "a3ee0b6e17cd6016",
+        "type": "tab",
+        "label": "dashboard",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "51263289fcdab758",
+        "type": "tab",
+        "label": "connectDB",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4840daadfb6d4b97",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#919191",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#919191",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#919191",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#b7b7b7",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#919191",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "f448794c5e008df9",
+        "type": "mongodb",
+        "hostname": "cluster0.mtk9bpo.mongodb.net",
+        "topology": "dnscluster",
+        "connectOptions": "",
+        "port": "27017",
+        "db": "Sensor",
+        "name": ""
+    },
+    {
+        "id": "1a6f4afd1ee646f0",
+        "type": "ui_group",
+        "name": "Login",
+        "tab": "70eba0678544f7a5",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "70eba0678544f7a5",
+        "type": "ui_tab",
+        "name": "Login",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5d0cda449804fba0",
+        "type": "ui_tab",
+        "name": "Config",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c75346b8097109b0",
+        "type": "ui_group",
+        "name": "Environment",
+        "tab": "5d0cda449804fba0",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2e6f3de176045d08",
+        "type": "ui_tab",
+        "name": "Visualize",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f5564d4aab3122b1",
+        "type": "ui_group",
+        "name": "Temp",
+        "tab": "2e6f3de176045d08",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "514fa919eaf8e59a",
+        "type": "ui_group",
+        "name": "Gas",
+        "tab": "2e6f3de176045d08",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7083a6adfe032de1",
+        "type": "mongodb",
+        "hostname": "fire-alarm.a1dkobq.mongodb.net",
+        "topology": "dnscluster",
+        "connectOptions": "",
+        "port": "27017",
+        "db": "myDB",
+        "name": ""
+    },
+    {
+        "id": "ed55f9a711dd668c",
+        "type": "ui_group",
+        "name": "Humid",
+        "tab": "2e6f3de176045d08",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c2b4343bc2a8da66",
+        "type": "ui_form",
+        "z": "a3ee0b6e17cd6016",
+        "name": "",
+        "label": "",
+        "group": "1a6f4afd1ee646f0",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "usrname",
+                "value": "Username",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "passwd",
+                "value": "Password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "Username": "",
+            "Password": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": true,
+        "className": "",
+        "x": 490,
+        "y": 160,
+        "wires": [
+            [
+                "ee155ed960383b84"
+            ]
+        ]
+    },
+    {
+        "id": "6dfd118c584e1281",
+        "type": "mongodb out",
+        "z": "a3ee0b6e17cd6016",
+        "mongodb": "f448794c5e008df9",
+        "name": "update temp Threshold",
+        "collection": "reiceve",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "update",
+        "x": 950,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "630949e16c955d6e",
+        "type": "ui_slider",
+        "z": "a3ee0b6e17cd6016",
+        "name": "",
+        "label": "Temp",
+        "tooltip": "",
+        "group": "c75346b8097109b0",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "temp",
+        "topicType": "str",
+        "min": 0,
+        "max": "120",
+        "step": 1,
+        "className": "",
+        "x": 470,
+        "y": 400,
+        "wires": [
+            [
+                "657015f4cd31f193",
+                "45395cd83f4b3a94"
+            ]
+        ]
+    },
+    {
+        "id": "c62e12c746b52c5f",
+        "type": "debug",
+        "z": "a3ee0b6e17cd6016",
+        "name": "temp threshold",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "657015f4cd31f193",
+        "type": "ui_text",
+        "z": "a3ee0b6e17cd6016",
+        "group": "c75346b8097109b0",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Temp threshold",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 660,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "45395cd83f4b3a94",
+        "type": "function",
+        "z": "a3ee0b6e17cd6016",
+        "name": "update temp threshold",
+        "func": "var msgdata = {};\n\nmsgdata.query = {\n    \"_id\": \"656c2ee09b7d524ded0c6677\",\n}\n\nmsgdata.payload = {\n    \"$set\": {\n        \"data\": msg.payload.toString(),\n    }\n}\n\nreturn msgdata;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 400,
+        "wires": [
+            [
+                "c62e12c746b52c5f",
+                "6dfd118c584e1281"
+            ]
+        ]
+    },
+    {
+        "id": "934f969d95ef552d",
+        "type": "ui_slider",
+        "z": "a3ee0b6e17cd6016",
+        "name": "",
+        "label": "Gas",
+        "tooltip": "",
+        "group": "c75346b8097109b0",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "2000",
+        "step": 1,
+        "className": "",
+        "x": 470,
+        "y": 480,
+        "wires": [
+            [
+                "a036039f0f4e4c21",
+                "b43541fbc3e1ed01"
+            ]
+        ]
+    },
+    {
+        "id": "a036039f0f4e4c21",
+        "type": "function",
+        "z": "a3ee0b6e17cd6016",
+        "name": "update gas threshold",
+        "func": "var msgdata = {};\n\nmsgdata.query = {\n    \"_id\": \"656c2f1c9b7d524ded0c6678\",\n}\n\nmsgdata.payload = {\n    \"$set\": {\n        \"data\": msg.payload.toString(),\n    }\n}\n\nreturn msgdata;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 480,
+        "wires": [
+            [
+                "2aebfc26c54fa60f",
+                "891c9e91ed46d3ea"
+            ]
+        ]
+    },
+    {
+        "id": "b43541fbc3e1ed01",
+        "type": "ui_text",
+        "z": "a3ee0b6e17cd6016",
+        "group": "c75346b8097109b0",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Gas threshold",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 660,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "2aebfc26c54fa60f",
+        "type": "mongodb out",
+        "z": "a3ee0b6e17cd6016",
+        "mongodb": "f448794c5e008df9",
+        "name": "update gas Threshold",
+        "collection": "reiceve",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "update",
+        "x": 940,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "891c9e91ed46d3ea",
+        "type": "debug",
+        "z": "a3ee0b6e17cd6016",
+        "name": "gas threshold",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "ec5490abd3094bc5",
+        "type": "ui_ui_control",
+        "z": "a3ee0b6e17cd6016",
+        "name": "",
+        "events": "change",
+        "x": 340,
+        "y": 160,
+        "wires": [
+            [
+                "c2b4343bc2a8da66"
+            ]
+        ]
+    },
+    {
+        "id": "ee155ed960383b84",
+        "type": "function",
+        "z": "a3ee0b6e17cd6016",
+        "name": "verify",
+        "func": "\nif (msg.payload.Username == \"iot\") {\n    if (msg.payload.Password == \"21CLC07\") {\n\n        msg.payload = \"true\";\n        return msg;\n    }\n}\n\nmsg.payload = \"false\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 160,
+        "wires": [
+            [
+                "65b4f36a81a99f1b",
+                "a896b71f80d6152f"
+            ]
+        ]
+    },
+    {
+        "id": "dbc702c12c1d211e",
+        "type": "ui_toast",
+        "z": "a3ee0b6e17cd6016",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1170,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "726b83f96968648e",
+        "type": "function",
+        "z": "a3ee0b6e17cd6016",
+        "name": "start",
+        "func": "msg.payload = {\n    \"tabs\": {\n        \"hide\": [\"Visualize\", \"Config\"],\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 190,
+        "y": 160,
+        "wires": [
+            [
+                "ec5490abd3094bc5"
+            ]
+        ]
+    },
+    {
+        "id": "9b34d13312c7cb29",
+        "type": "inject",
+        "z": "a3ee0b6e17cd6016",
+        "name": "start",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 40,
+        "wires": [
+            [
+                "726b83f96968648e",
+                "3f95a1ac483c11be"
+            ]
+        ]
+    },
+    {
+        "id": "65b4f36a81a99f1b",
+        "type": "switch",
+        "z": "a3ee0b6e17cd6016",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "true",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "false",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 790,
+        "y": 120,
+        "wires": [
+            [
+                "d8f8777fca8026e3",
+                "4fb3edf94ccbc76d"
+            ],
+            [
+                "a84465ed5f9d6580"
+            ]
+        ]
+    },
+    {
+        "id": "81adcd7994e554b7",
+        "type": "ui_ui_control",
+        "z": "a3ee0b6e17cd6016",
+        "name": "go to visualize",
+        "events": "change",
+        "x": 1160,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d8f8777fca8026e3",
+        "type": "function",
+        "z": "a3ee0b6e17cd6016",
+        "name": "direct",
+        "func": "msg.payload = \"Visualize\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 950,
+        "y": 60,
+        "wires": [
+            [
+                "81adcd7994e554b7"
+            ]
+        ]
+    },
+    {
+        "id": "a84465ed5f9d6580",
+        "type": "function",
+        "z": "a3ee0b6e17cd6016",
+        "name": "fail",
+        "func": "msg.payload = \"login fail\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 950,
+        "y": 160,
+        "wires": [
+            [
+                "dbc702c12c1d211e"
+            ]
+        ]
+    },
+    {
+        "id": "a896b71f80d6152f",
+        "type": "debug",
+        "z": "a3ee0b6e17cd6016",
+        "name": "verify",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 790,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "4fb3edf94ccbc76d",
+        "type": "function",
+        "z": "a3ee0b6e17cd6016",
+        "name": "enable tabs",
+        "func": "msg.payload = {\n    \"tabs\": {\n        \"show\": [\"Visualize\", \"Config\"],\n        \"hide\": \"Login\",\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 100,
+        "wires": [
+            [
+                "fbfae0e7d3031bc2"
+            ]
+        ]
+    },
+    {
+        "id": "fbfae0e7d3031bc2",
+        "type": "ui_ui_control",
+        "z": "a3ee0b6e17cd6016",
+        "name": "enable tabs",
+        "events": "change",
+        "x": 1150,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3f95a1ac483c11be",
+        "type": "function",
+        "z": "a3ee0b6e17cd6016",
+        "name": "function 1",
+        "func": "msg.payload = \"Login\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 40,
+        "wires": [
+            [
+                "cedf997a83e744cb"
+            ]
+        ]
+    },
+    {
+        "id": "cedf997a83e744cb",
+        "type": "ui_ui_control",
+        "z": "a3ee0b6e17cd6016",
+        "name": "",
+        "events": "all",
+        "x": 540,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "26042a093143311d",
+        "type": "inject",
+        "z": "51263289fcdab758",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 320,
+        "wires": [
+            [
+                "8b879c7c55164741"
+            ]
+        ]
+    },
+    {
+        "id": "8b879c7c55164741",
+        "type": "mongodb in",
+        "z": "51263289fcdab758",
+        "mongodb": "f448794c5e008df9",
+        "name": "get threshold",
+        "collection": "reiceve",
+        "operation": "find",
+        "x": 330,
+        "y": 320,
+        "wires": [
+            [
+                "2d16d97e07e41ba4",
+                "a8c845dec4f8a5d8"
+            ]
+        ]
+    },
+    {
+        "id": "bd78c30c83b509db",
+        "type": "debug",
+        "z": "51263289fcdab758",
+        "name": "temp threshold",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "2d16d97e07e41ba4",
+        "type": "function",
+        "z": "51263289fcdab758",
+        "name": "temp threshold",
+        "func": "msg.payload = msg.payload[0];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 320,
+        "wires": [
+            [
+                "bd78c30c83b509db"
+            ]
+        ]
+    },
+    {
+        "id": "a8c845dec4f8a5d8",
+        "type": "function",
+        "z": "51263289fcdab758",
+        "name": "gas threshold",
+        "func": "msg.payload = msg.payload[1];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 380,
+        "wires": [
+            [
+                "c1865960a8696d17"
+            ]
+        ]
+    },
+    {
+        "id": "c1865960a8696d17",
+        "type": "debug",
+        "z": "51263289fcdab758",
+        "name": "gas threshold",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "4f1952e1f01fc096",
+        "type": "inject",
+        "z": "51263289fcdab758",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 540,
+        "wires": [
+            [
+                "df3da7c632ccb4e5"
+            ]
+        ]
+    },
+    {
+        "id": "371c354e3e24a3e6",
+        "type": "function",
+        "z": "51263289fcdab758",
+        "name": "gen env info",
+        "func": "var temperature = Math.random() * 100;\nvar humidity = Math.random() * 100;\nvar Gas = Math.random() * 100;\n\nvar sensors = {\n    \"temperature\": temperature,\n    \"humidity\": humidity,\n    \"Gas\": Gas,\n}\n\nmsg.payload = {\n    \"sensors\": sensors,\n} \n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 540,
+        "wires": [
+            [
+                "6a8bb6c88c3e0dce"
+            ]
+        ]
+    },
+    {
+        "id": "6a8bb6c88c3e0dce",
+        "type": "mongodb out",
+        "z": "51263289fcdab758",
+        "mongodb": "7083a6adfe032de1",
+        "name": "",
+        "collection": "env",
+        "payonly": true,
+        "upsert": false,
+        "multi": false,
+        "operation": "store",
+        "x": 650,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "9db0c68ed0cdbd1e",
+        "type": "mongodb out",
+        "z": "51263289fcdab758",
+        "mongodb": "f448794c5e008df9",
+        "name": "remove first env",
+        "collection": "data1",
+        "payonly": false,
+        "upsert": false,
+        "multi": false,
+        "operation": "delete",
+        "x": 740,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "df3da7c632ccb4e5",
+        "type": "mongodb in",
+        "z": "51263289fcdab758",
+        "mongodb": "f448794c5e008df9",
+        "name": "get env",
+        "collection": "data1",
+        "operation": "find",
+        "x": 300,
+        "y": 800,
+        "wires": [
+            [
+                "d9b2ddebd1fdc55c",
+                "d9f8151ad15a74f0",
+                "b1360f5604967190",
+                "1566443a6cb98ac4"
+            ]
+        ]
+    },
+    {
+        "id": "d9b2ddebd1fdc55c",
+        "type": "function",
+        "z": "51263289fcdab758",
+        "name": "get first env",
+        "func": "\nmsg.payload = {\n    \"sensors\": msg.payload[0].sensors,\n} \n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 640,
+        "wires": [
+            [
+                "9db0c68ed0cdbd1e"
+            ]
+        ]
+    },
+    {
+        "id": "d9f8151ad15a74f0",
+        "type": "function",
+        "z": "51263289fcdab758",
+        "name": "get last temp",
+        "func": "msg.payload = msg.payload.pop().sensors.temperature;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 740,
+        "wires": [
+            [
+                "26c7c4715266346e",
+                "2be3034c1e200a95"
+            ]
+        ]
+    },
+    {
+        "id": "26c7c4715266346e",
+        "type": "ui_chart",
+        "z": "51263289fcdab758",
+        "name": "",
+        "group": "f5564d4aab3122b1",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Temp Chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 730,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b1360f5604967190",
+        "type": "function",
+        "z": "51263289fcdab758",
+        "name": "get last gas",
+        "func": "msg.payload = msg.payload.pop().sensors.Gas;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 920,
+        "wires": [
+            [
+                "6b3fff8fa9b7ee4f",
+                "8b27cd5213faeaa8"
+            ]
+        ]
+    },
+    {
+        "id": "6b3fff8fa9b7ee4f",
+        "type": "ui_chart",
+        "z": "51263289fcdab758",
+        "name": "",
+        "group": "514fa919eaf8e59a",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Gas Chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "2000",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 730,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1566443a6cb98ac4",
+        "type": "function",
+        "z": "51263289fcdab758",
+        "name": "get last humid",
+        "func": "msg.payload = msg.payload.pop().sensors.humidity;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 840,
+        "wires": [
+            [
+                "68bc4b45585d6b07",
+                "065d427d95ead57d"
+            ]
+        ]
+    },
+    {
+        "id": "68bc4b45585d6b07",
+        "type": "ui_chart",
+        "z": "51263289fcdab758",
+        "name": "",
+        "group": "ed55f9a711dd668c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Humid Chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "10",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 730,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2be3034c1e200a95",
+        "type": "debug",
+        "z": "51263289fcdab758",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "065d427d95ead57d",
+        "type": "debug",
+        "z": "51263289fcdab758",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "8b27cd5213faeaa8",
+        "type": "debug",
+        "z": "51263289fcdab758",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 880,
+        "wires": []
+    }
+]

@@ -1,0 +1,9 @@
+
+Window Start: 2015-12-01 12:00:00
+Window End: 2015-12-01 13:00:00
+Headquarter: citigroup
+Count: 24
+Window Start: 2015-12-01 12:00:00
+Window End: 2015-12-01 13:00:00
+Headquarter: goldman
+Count: 7
